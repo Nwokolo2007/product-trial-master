@@ -1,0 +1,12 @@
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\bin\Debug\net8.0\AltenShop.Application.deps.json
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\bin\Debug\net8.0\AltenShop.Application.dll
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\bin\Debug\net8.0\AltenShop.Application.pdb
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.csproj.AssemblyReference.cache
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.AssemblyInfoInputs.cache
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.AssemblyInfo.cs
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.csproj.CoreCompileInputs.cache
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.dll
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\refint\AltenShop.Application.dll
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\AltenShop.Application.pdb
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Application\obj\Debug\net8.0\ref\AltenShop.Application.dll
