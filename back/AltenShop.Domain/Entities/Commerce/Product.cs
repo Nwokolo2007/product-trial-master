@@ -57,19 +57,33 @@ namespace AltenShop.Domain.Entities.Commerce
 			InventoryStatus = InventoryStatus.FromQuantity(quantity);
 		}
 
-		public static Product Create(
-			string code,
-			string name,
-			string description,
-			string imageUrl,
-			string category,
-			decimal price,
-			int quantity,
-			string internalReference,
-			int shellId,
-			double rating = 0.0)
-			=> new(code, name, description, imageUrl, category, price, quantity, internalReference, shellId, rating);
 
+
+		public static Product Create(
+		string code,
+		string name,
+		string category,
+		decimal price,
+		int quantity,
+		string? description = null,
+		string? imageUrl = null,
+		string? internalReference = null,
+		int? shellId = null,
+		double rating = 0.0)
+		{
+			return new Product(
+				code: code,
+				name: name,
+				description: description ?? string.Empty,
+				imageUrl: imageUrl ?? string.Empty,
+				category: category,
+				price: price,
+				quantity: quantity,
+				internalReference: internalReference ?? Guid.NewGuid().ToString("N"),
+				shellId: shellId ?? 0,
+				rating: rating
+			);
+		}
 		public void UpdateQuantity(int quantity)
 		{
 			if (quantity < 0)
