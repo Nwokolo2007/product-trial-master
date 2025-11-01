@@ -9,3 +9,4 @@ C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Domai
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Domain\obj\Debug\net8.0\refint\AltenShop.Domain.dll
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Domain\obj\Debug\net8.0\AltenShop.Domain.pdb
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Domain\obj\Debug\net8.0\ref\AltenShop.Domain.dll
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Domain\obj\Debug\net8.0\AltenShop.Domain.sourcelink.json

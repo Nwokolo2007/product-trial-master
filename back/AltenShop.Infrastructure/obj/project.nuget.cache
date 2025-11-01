@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9SjFbBTTR3Q=",
+  "dgSpecHash": "1gXsd5Qa3CY=",
   "success": true,
   "projectFilePath": "C:\\Chibuzo Personal documents\\Projects\\product-trial-master\\back\\AltenShop.Infrastructure\\AltenShop.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -23,9 +23,15 @@
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.10\\microsoft.extensions.caching.memory.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.10\\microsoft.extensions.configuration.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.10\\microsoft.extensions.configuration.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\9.0.10\\microsoft.extensions.configuration.environmentvariables.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\9.0.10\\microsoft.extensions.configuration.fileextensions.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.configuration.json\\9.0.10\\microsoft.extensions.configuration.json.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.10\\microsoft.extensions.dependencyinjection.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.10\\microsoft.extensions.dependencyinjection.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.dependencymodel\\9.0.10\\microsoft.extensions.dependencymodel.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\9.0.10\\microsoft.extensions.fileproviders.abstractions.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\9.0.10\\microsoft.extensions.fileproviders.physical.9.0.10.nupkg.sha512",
+    "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\9.0.10\\microsoft.extensions.filesystemglobbing.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.logging\\9.0.10\\microsoft.extensions.logging.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.10\\microsoft.extensions.logging.abstractions.9.0.10.nupkg.sha512",
     "C:\\Users\\conta\\.nuget\\packages\\microsoft.extensions.options\\9.0.10\\microsoft.extensions.options.9.0.10.nupkg.sha512",

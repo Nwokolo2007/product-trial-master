@@ -12,3 +12,4 @@ C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Infra
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Infrastructure\obj\Debug\net8.0\AltenShop.Infrastructure.pdb
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Infrastructure\obj\Debug\net8.0\AltenShop.Infrastructure.genruntimeconfig.cache
 C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Infrastructure\obj\Debug\net8.0\ref\AltenShop.Infrastructure.dll
+C:\Chibuzo Personal documents\Projects\product-trial-master\back\AltenShop.Infrastructure\obj\Debug\net8.0\AltenShop.Infrastructure.sourcelink.json
