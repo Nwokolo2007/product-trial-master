@@ -1,7 +1,7 @@
 ﻿using AltenShop.Domain.Exceptions;
 using AltenShop.Domain.ValueObjects;
 
-namespace AltenShop.Domain.Entities
+namespace AltenShop.Domain.Entities.Communication
 {
 	public class ContactMessage
 	{
