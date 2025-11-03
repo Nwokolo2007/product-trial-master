@@ -7,8 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="15.1.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="FluentValidation" Version="12.0.0" />
     <PackageReference Include="MediatR" Version="13.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Accounts\DTOs\" />
+    <Folder Include="Features\Carting\Validators\" />
+    <Folder Include="Features\Catalog\Validators\" />
+    <Folder Include="Features\Contact\Queries\" />
+    <Folder Include="Features\Wishlist\Validators\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AltenShop.Domain\AltenShop.Domain.csproj" />
   </ItemGroup>
 
 </Project>
