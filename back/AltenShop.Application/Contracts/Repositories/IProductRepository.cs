@@ -6,7 +6,6 @@ namespace AltenShop.Application.Ports.Repositories
 	{
 		Task<(IReadOnlyList<Product> Products, int TotalCount)> GetPaginatedAsync(
 			int pageNumber, int pageSize, string? category, string? search, CancellationToken ct);
-
 		Task<Product?> GetByIdAsync(int id, CancellationToken ct);
 		Task AddAsync(Product product, CancellationToken ct);
 		Task UpdateAsync(Product product, CancellationToken ct);
