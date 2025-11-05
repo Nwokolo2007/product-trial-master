@@ -99,5 +99,23 @@ namespace AltenShop.Domain.Entities.Commerce
 			Price = price;
 			UpdatedAtUtc = DateTime.UtcNow;
 		}
+
+		public void UpdateDetails(string? name, string? description, string? category, string? imageUrl)
+		{
+			if (!string.IsNullOrWhiteSpace(name))
+				Name = name.Trim();
+
+			if (description is not null)
+				Description = description.Trim();
+
+			if (!string.IsNullOrWhiteSpace(category))
+				Category = category.Trim();
+
+			if (imageUrl is not null)
+				ImageUrl = imageUrl.Trim();
+
+			UpdatedAtUtc = DateTime.UtcNow;
+		}
+
 	}
 }

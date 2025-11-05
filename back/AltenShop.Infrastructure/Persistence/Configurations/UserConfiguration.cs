@@ -27,10 +27,16 @@ public sealed class UserConfiguration : IEntityTypeConfiguration<User>
 		builder.OwnsOne(u => u.Password, p =>
 		{
 			p.Property(x => x.Hash)
-			 .IsRequired()
-			 .HasMaxLength(255)
-			 .HasColumnName("PasswordHash");
+				.IsRequired()
+				.HasMaxLength(255)
+				.HasColumnName("PasswordHash");
+
+			p.Property(x => x.Salt)
+				.IsRequired()
+				.HasMaxLength(255)
+				.HasColumnName("PasswordSalt");
 		});
+
 
 		builder.OwnsOne(u => u.FullName, f =>
 		{

@@ -20,10 +20,18 @@ public static class DependencyInjection
 		services.AddScoped<IProductRepository, ProductRepository>();
 		services.AddScoped<IUserRepository, UserRepository>();
 		services.AddScoped<ICartRepository, CartRepository>();
+		services.AddScoped<IWishlistRepository,WishlistRepository>();
 
 		// JWT
 		services.AddScoped<IJwtTokenService, JwtTokenService>();
 
 		return services;
+	}
+
+	public static async Task InitializeDatabaseAsync(this IServiceProvider services)
+	{
+		using var scope = services.CreateScope();
+		var db = scope.ServiceProvider.GetRequiredService<AltenShopDbContext>();
+		await DataSeeder.SeedAsync(db);
 	}
 }

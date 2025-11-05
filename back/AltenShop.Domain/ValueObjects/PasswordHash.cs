@@ -14,7 +14,7 @@ namespace AltenShop.Domain.ValueObjects
 		public string Hash { get; }
 		public string Salt { get; }
 		public string Version { get; } = "PBKDF2-SHA512-v2";
-
+		private PasswordHash() { }
 		private PasswordHash(string hash, string salt)
 		{
 			Hash = hash;

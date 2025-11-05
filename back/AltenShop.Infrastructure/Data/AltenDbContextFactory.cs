@@ -19,7 +19,7 @@ namespace AltenShop.Infrastructure.Data
 
 			// Fallback if not found
 			var connectionString = config.GetConnectionString("DefaultConnection") ??
-				"Host=localhost;Port=5432;Database=payslip;Username=postgres;Password=MyStrongPass123";
+				"Host=localhost;Port=5432;Database=altenshop;Username=alten;Password=T9!rZb@82sKx#LpQe6vM";
 
 			var optionsBuilder = new DbContextOptionsBuilder<AltenShopDbContext>();
 			optionsBuilder.UseNpgsql(connectionString);
