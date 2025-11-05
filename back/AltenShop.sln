@@ -3,15 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShop.API", "AltenShop.API\AltenShop.API.csproj", "{3F54781F-1B03-4561-84BD-1C0C564FB044}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShop.API", "AltenShop.API\AltenShop.API.csproj", "{3F54781F-1B03-4561-84BD-1C0C564FB044}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShop.Domain", "AltenShop.Domain\AltenShop.Domain.csproj", "{EBE69008-493B-4095-86D9-4843A5EA321A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShop.Domain", "AltenShop.Domain\AltenShop.Domain.csproj", "{EBE69008-493B-4095-86D9-4843A5EA321A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShop.Application", "AltenShop.Application\AltenShop.Application.csproj", "{602DB72A-BCF3-4D2D-85AC-FFB45CE94BB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShop.Application", "AltenShop.Application\AltenShop.Application.csproj", "{602DB72A-BCF3-4D2D-85AC-FFB45CE94BB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShop.Infrastructure", "AltenShop.Infrastructure\AltenShop.Infrastructure.csproj", "{7D918422-5019-494F-BF17-5D04877E1AD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShop.Infrastructure", "AltenShop.Infrastructure\AltenShop.Infrastructure.csproj", "{7D918422-5019-494F-BF17-5D04877E1AD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltenShop.Tests", "AltenShop.Tests\AltenShop.Tests.csproj", "{DFF73E64-20FF-4B1C-82C9-2199DECEDCF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AltenShop.Tests", "AltenShop.Tests\AltenShop.Tests.csproj", "{DFF73E64-20FF-4B1C-82C9-2199DECEDCF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{57214FCF-E75E-4EBB-B77D-E2322FCEDB86}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

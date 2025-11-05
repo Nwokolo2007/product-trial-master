@@ -7,6 +7,8 @@ namespace AltenShop.Domain.ValueObjects
 		public string First { get; }
 		public string Last { get; }
 
+		private FullName() { }
+
 		public FullName(string firstName, string lastName)
 		{
 			if (string.IsNullOrWhiteSpace(firstName) || string.IsNullOrWhiteSpace(lastName))
