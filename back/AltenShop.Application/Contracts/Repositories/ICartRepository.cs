@@ -7,5 +7,6 @@ namespace AltenShop.Application.Ports.Repositories
 		Task<Cart?> GetByCustomerIdAsync(Guid customerId, CancellationToken ct);
 		Task AddAsync(Cart cart, CancellationToken ct);
 		Task UpdateAsync(Cart cart, CancellationToken ct);
+		Task SaveAsync(Cart cart, CancellationToken ct);
 	}
 }

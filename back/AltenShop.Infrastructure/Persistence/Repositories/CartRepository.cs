@@ -14,6 +14,12 @@ public class CartRepository : ICartRepository
 		=> await _context.Carts.Include(c => c.Items)
 							   .FirstOrDefaultAsync(c => c.CustomerId == customerId, ct);
 
+	public async Task SaveAsync(Cart cart, CancellationToken ct)
+	{
+		_context.Carts.Update(cart); 
+		await _context.SaveChangesAsync(ct);
+	}
+
 	public async Task AddAsync(Cart cart, CancellationToken ct)
 	{
 		_context.Carts.Add(cart);

@@ -10,6 +10,10 @@
 	   decimal Price,
 	   int Quantity,
 	   string InventoryStatus,
-	   double Rating
+	   double Rating,
+	   int ShellId,
+	   string InternalReference,
+	   DateTime CreatedAtUtc,
+	   DateTime UpdatedAtUtc
    );
 }
