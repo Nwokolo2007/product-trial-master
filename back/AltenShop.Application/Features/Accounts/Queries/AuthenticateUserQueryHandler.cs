@@ -20,6 +20,6 @@ public sealed class AuthenticateUserQueryHandler : IRequestHandler<AuthenticateU
 		if (!user.VerifyPassword(r.Password))
 			throw new ConflictException("Invalid credentials.");
 
-		return _jwt.GenerateToken(user);
+		return await _jwt.GenerateToken(user, ct);
 	}
 }

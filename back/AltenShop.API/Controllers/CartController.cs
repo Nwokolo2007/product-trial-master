@@ -40,5 +40,5 @@ public class CartController : ControllerBase
 	}
 
 	private Guid GetUserId()
-		=> Guid.TryParse(User.FindFirst("sub")?.Value, out var id) ? id : Guid.Empty;
+		=> Guid.TryParse(User.FindFirst("customerId")?.Value, out var id) ? id : Guid.Empty;
 }

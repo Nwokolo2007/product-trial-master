@@ -19,7 +19,7 @@
     <Folder Include="Features\Carting\Validators\" />
     <Folder Include="Features\Catalog\Validators\" />
     <Folder Include="Features\Contact\Queries\" />
-    <Folder Include="Features\Wishlist\Validators\" />
+    <Folder Include="Features\CustomerWishList\Validators\" />
   </ItemGroup>
 
   <ItemGroup>

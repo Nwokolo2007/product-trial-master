@@ -2,7 +2,7 @@
 using AltenShop.Application.Ports.Repositories;
 using MediatR;
 
-namespace AltenShop.Application.Features.Wishlist.Commands;
+namespace AltenShop.Application.Features.CustomerWishList.Commands;
 
 public sealed class RemoveFromWishlistCommandHandler : IRequestHandler<RemoveFromWishlistCommand, Unit>
 {

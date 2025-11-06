@@ -2,6 +2,7 @@
 using AltenShop.Application.Ports.Services;
 using AltenShop.Infrastructure.Data;
 using AltenShop.Infrastructure.Persistence.Repositories;
+using AltenShop.Infrastructure.Repositories;
 using AltenShop.Infrastructure.Security;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -21,7 +22,7 @@ public static class DependencyInjection
 		services.AddScoped<IUserRepository, UserRepository>();
 		services.AddScoped<ICartRepository, CartRepository>();
 		services.AddScoped<IWishlistRepository,WishlistRepository>();
-
+		services.AddScoped<ICustomerRepository, CustomerRepository>();
 		// JWT
 		services.AddScoped<IJwtTokenService, JwtTokenService>();
 

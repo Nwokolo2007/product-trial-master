@@ -4,6 +4,6 @@ namespace AltenShop.Application.Ports.Services
 {
 	public interface IJwtTokenService
 	{
-		string GenerateToken(User user);
+		Task<string> GenerateToken(User user, CancellationToken ct);
 	}
 }

@@ -1,7 +1,8 @@
 ﻿using AltenShop.Application.Ports.Repositories;
+using AltenShop.Domain.Entities.Commerce;
 using MediatR;
 
-namespace AltenShop.Application.Features.Wishlist.Commands;
+namespace AltenShop.Application.Features.CustomerWishList.Commands;
 
 public sealed class AddToWishlistCommandHandler : IRequestHandler<AddToWishlistCommand, Unit>
 {
@@ -10,10 +11,10 @@ public sealed class AddToWishlistCommandHandler : IRequestHandler<AddToWishlistC
 
 	public async Task<Unit> Handle(AddToWishlistCommand r, CancellationToken ct)
 	{
-		var wl = await _wishlists.GetByCustomerIdAsync(r.CustomerId, ct) ?? new Domain.Entities.Commerce.Wishlist(r.CustomerId);
+		var wl = await _wishlists.GetByCustomerIdAsync(r.CustomerId, ct) ?? new AltenShop.Domain.Entities.Commerce.Wishlist(r.CustomerId);
 		wl.AddProduct(r.ProductId);
-		if (wl.Id == Guid.Empty) await _wishlists.AddAsync(wl, ct);
-		else await _wishlists.UpdateAsync(wl, ct);
+		 await _wishlists.AddAsync(wl, ct);
+		
 		return Unit.Value;
 	}
 }

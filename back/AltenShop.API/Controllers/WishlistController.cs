@@ -1,4 +1,5 @@
-﻿using AltenShop.Application.Features.Wishlist.Commands;
+﻿
+using AltenShop.Application.Features.CustomerWishList.Commands;
 using AltenShop.Application.Features.Wishlist.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -40,5 +41,5 @@ public class WishlistController : ControllerBase
 	}
 
 	private Guid GetUserId()
-		=> Guid.TryParse(User.FindFirst("sub")?.Value, out var id) ? id : Guid.Empty;
+		=> Guid.TryParse(User.FindFirst("customerId")?.Value, out var id) ? id : Guid.Empty;
 }

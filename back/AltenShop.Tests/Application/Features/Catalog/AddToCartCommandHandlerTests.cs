@@ -13,11 +13,12 @@ public class AddToCartCommandHandlerTests
 	{
 		// Arrange
 		var repoMock = new Mock<ICartRepository>();
+		var repoMockProd = new Mock<IProductRepository>();
 		var existingCart = new Cart(Guid.NewGuid());
 		repoMock.Setup(r => r.GetByCustomerIdAsync(existingCart.CustomerId, default))
 				.ReturnsAsync(existingCart);
 
-		var handler = new AddToCartCommandHandler(repoMock.Object);
+		var handler = new AddToCartCommandHandler(repoMock.Object, repoMockProd.Object);
 		var command = new AddToCartCommand(existingCart.CustomerId, 1, 2, 100m);
 
 		// Act
