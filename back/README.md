@@ -13,8 +13,10 @@ CQRS + MediatR
 xUnit pour les tests
 
 
-Structure du projet
 
+## Structure du projet
+
+```bash
 back/
 ├── AltenShop.API/              # API Web ASP.NET Core (point d’entrée)
 ├── AltenShop.Application/      # Couche application (CQRS, logique métier)
